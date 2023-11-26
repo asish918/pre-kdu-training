@@ -1,2 +1,2 @@
 Hello people Asish this side.
-Welcome to Kickdrum University!!!
+Welcome to Training University!!!
