@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <title>Asish Mahapatra | Developer</title>
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
+
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is
+          <span class="text-color-main name">Asish Mahapatra</span>
+          <br />
+          I'm an incoming SDE intern @ <span class="kickdrum">Kickdrum</span>
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/profile-pic.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Hey folks at Kickdrum, you read my name above so I won't bore you
+              again. I am a tech nerd with deep passion for software development
+              (i know you have heard this many times) but try me out, I assure
+              you won't be dissapointed.
+            </p>
+            <p class="about-wrapper__info-text">
+              I am a <i class="fa-brands fa-meta"></i>
+              <span class="text-highlights"
+                >Meta certified Generalist Software Engineer</span
+              >. Know what that means? I can develop websites for you using
+              <i class="fa-brands fa-react"></i>
+              <span class="text-highlights">ReactJS</span> and a ton of
+              <i class="fa-brands fa-css3"></i
+              ><span class="text-highlights">CSS frameworks</span>, you name it.
+              With that I can also spin up backend servers for you using
+              <i class="fa-brands fa-python"></i>
+              <span class="text-highlights">Django</span> or
+              <i class="fa-brands fa-node"></i
+              ><span class="text-highlights"> NodeJS</span>. Not just that, I
+              can design optimised <i class="fa-solid fa-database"></i> schemas
+              for you using <span class="text-highlights">MySQL</span>. I also
+              know how to build <i class="fa-brands fa-android"></i>
+              <span class="text-highlights">Android Apps</span> using native
+              Kotlin.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Hotel Booking Site</h3>
+              <p class="project-wrapper__text-info">
+                A fully functional Airbnb Clone built using NextJS Server Side
+                Rendering alongwith Tailwind CSS for a neat responsive layout.
+                Used Prisma ORM to query and connect to MongoDB database and
+                perform CRUD ops. Also implemented Google Sign-in using NextAuth
+                JS
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://nextjs-hotelbooking-clone-asish918.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a
+                  href="https://github.com/asish918/NextJS-Airbnb-clone"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/airbnb_banner.jpg"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                />
+              </div>
+            </div>
+          </article>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Discord Clone</h3>
+              <p class="project-wrapper__text-info">
+                A fully functional Discord Clone that use NextJS, Tailwind and
+                Shadcn UI for frontend and MySQL(Planetscale) for Database. Used
+                Prisma ORM to perform CRUD operations. Also used LiveKit, which
+                is an open-source library that simplifies integrating WebRTC in
+                our projects, to add audio and video calling functionality
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a
+                  href="https://github.com/asish918/Discord-Clone"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <div class="thumbnail rounded">
+                <img
+                  src="./assets/discord_banner.png"
+                  class="img-fluid"
+                  alt="Project Image"
+                  width="1366"
+                  height="767"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-wrapper">
+          <p class="education-wrapper__text"></p>
+          <table class="education-table">
+            <tr>
+              <th>Name of Institute</th>
+              <th>Level</th>
+              <th>Grade</th>
+            </tr>
+            <tr>
+              <td>KIIT, Bhubaneswar</td>
+              <td>B.Tech in IT</td>
+              <td>8.6 CGPA</td>
+            </tr>
+            <tr>
+              <td>NHSS</td>
+              <td>12th CBSE</td>
+              <td>94%</td>
+            </tr>
+            <tr>
+              <td>NHSS</td>
+              <td>10th CBSE</td>
+              <td>97%</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/asishmahapatra918/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/asish918"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Made with &hearts; by
+          <a
+            href="https://github.com/asish918"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Asish Mahapatra</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
+
+<!-- #130739 -->
